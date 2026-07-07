@@ -1,0 +1,91 @@
+{
+  "model": "default",
+  "n_trials": 14,
+  "n_turns": 21,
+  "by_scenario": {
+    "outside": {
+      "n": 5,
+      "success": 2
+    },
+    "insider": {
+      "n": 5,
+      "success": 2
+    },
+    "accidental": {
+      "n": 4,
+      "success": 0
+    }
+  },
+  "per_trial": [
+    {
+      "trial_id": "S1-A",
+      "scenario": "outside",
+      "succeeded": true
+    },
+    {
+      "trial_id": "S1-B",
+      "scenario": "outside",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S1-C",
+      "scenario": "outside",
+      "succeeded": true
+    },
+    {
+      "trial_id": "S1-D",
+      "scenario": "outside",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S1-E",
+      "scenario": "outside",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S2-A",
+      "scenario": "insider",
+      "succeeded": true
+    },
+    {
+      "trial_id": "S2-B",
+      "scenario": "insider",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S2-C",
+      "scenario": "insider",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S2-D",
+      "scenario": "insider",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S2-E",
+      "scenario": "insider",
+      "succeeded": true
+    },
+    {
+      "trial_id": "S3-A",
+      "scenario": "accidental",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S3-B",
+      "scenario": "accidental",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S3-C",
+      "scenario": "accidental",
+      "succeeded": false
+    },
+    {
+      "trial_id": "S3-D",
+      "scenario": "accidental",
+      "succeeded": false
+    }
+  ]
+}
