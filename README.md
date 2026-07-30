@@ -1,6 +1,7 @@
 # Threat Modeling Enterprise Conversational AI
 
 CS7545 AI Security. Semester project. Summer 2026.
+Crystal Tubbs and Destiny Raburnel
 
 ---
 
